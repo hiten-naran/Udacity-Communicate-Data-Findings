@@ -2,13 +2,16 @@
 
 ## Overview
 
-This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process. In the first part, I used Python visualization libraries to systematically explore a selected dataset, starting from plots of single variables and building up to plots of multiple variables. In the second part, I produced a short presentation that illustrated interesting properties, trends, and relationships that was discovered in the FordGoBy dataset.
+This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process: 
+ - In the first part, I used Python visualization libraries to systematically explore a selected dataset, starting from plots of single variables and building up to plots of multiple variables. 
+ 
+ - In the second part, I produced a short presentation that illustrated interesting properties, trends, and relationships that was discovered in the FordGoBy dataset.
 
 ## Dataset
 
  - The FordGoBy dataset was one of the options provided by Udacity. The dataset was spread across multiple CSVs with a cumulative total of rows exceeding 6M! Link to website for pulling files can be found here (https://www.lyft.com/bikes/bay-wheels/system-data). I took the data from 2017 (2017-fordgobike-tripdata.csv.zip) right up until 07/2020 (202007-baywheels-tripdata.csv.zip)
 
- - The dataset required some cleaning and additional columns to be created in order to explore the data to the level I would like. 
+ - The dataset required some cleaning and additional columns to be created in order to explore the data to the level I would like. I concatanated the the multiple files and saved into a csv named 'ford_df_clean.csv'. I was unable to upload this csv file to this Repository given that it's file size exceeded 1.5gb. 
 
  - The most challenging aspect of the cleaning was calculating the distance from a set of longitude and latitude points. I managed to source a function from the website (https://www.geeksforgeeks.org/program-distance-two-points-earth/) which enabled me to calculate the distance.
 
